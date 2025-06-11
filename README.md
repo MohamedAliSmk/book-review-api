@@ -63,7 +63,7 @@ npm test
 
 ## 🟢 Public Routes
 
-Method	Route	Description
+**Method Route	Description** 
 GET	/books	Get all books
 GET	/books/isbn/:isbn	Get book by ISBN
 GET	/books/author/:author	Get books by author
@@ -73,19 +73,19 @@ POST	/users/register	Register a new user
 POST	/users/login	Login and receive JWT token
 
 ## 🔐 Protected Routes (Require JWT)
-Method	Route	Description
+**Method	Route	Description** 
 PUT	/books/review/:isbn	Add or modify user's review
 DELETE	/books/review/:isbn	Delete the logged-in user's review
 
 ## 🔄 Async Routes
-Method	Route	Description
+**Method Route	Description** 
 GET	/async/callback	Get all books using callback
 GET	/async/promise/:isbn	Get book by ISBN using promise
 GET	/async/author/:author	Get books by author using async
 GET	/async/title/:title	Get books by title using async
 
 ## 📸 Required Screenshots for Submission
-Take Postman or test output screenshots for:
+**Take Postman or test output screenshots for:** 
 
 All 13 functional tasks
 
@@ -94,6 +94,6 @@ Test results (npm test)
 GitHub repo link (Task 14)
 
 ## 🧠 Author
-Mohamed Ali
-GitHub Profile
-LinkedIn
+**Mohamed Ali**  
+🔗 [GitHub Profile](https://github.com/MohamedAliSmk)  
+🔗 [LinkedIn](https://www.linkedin.com/in/mohammed-ali-smk-7800651a6/)
